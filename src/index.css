@@ -12,3 +12,14 @@ body {
   margin: 0 auto;
   padding: 22px 30px;
 }
+
+.main-nav {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0px 3px 7px 0px #0000001A;
+}
+
+.main-nav__container {
+  min-height: 70px;
+  display: flex;
+}
