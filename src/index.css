@@ -3,8 +3,24 @@
 }
 
 body {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
   background-color: #fff;
   color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
 }
 
 .container {
@@ -14,7 +30,7 @@ body {
 }
 
 .main-nav {
-  background-color: #fff;
+  background-color: #FFF;
   color: #000;
   box-shadow: 0px 3px 7px 0px #0000001A;
 }
@@ -23,3 +39,4 @@ body {
   min-height: 70px;
   display: flex;
 }
+
