@@ -4,7 +4,7 @@ export default function Card() {
   return (
     <section className="card">
       <a className="card__link" href="/" target="_blanc" rel="noopener noreferrer nofollow">
-        <img className="card__img" src="/images/card-1.png" alt="card-img"/>
+        <img className="card__img" src="/images/card-1.png" width="176" height="235" alt="card-img"/>
         <span className="card__status">SOLD OUT</span>
         <div className="card__meta">
           <div className="card__stats">
