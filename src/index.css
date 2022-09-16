@@ -52,7 +52,7 @@ p {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 625px;
   margin: 0 auto;
   padding: 22px 30px;
 }
@@ -112,6 +112,12 @@ p {
   line-height: 19px;
 }
 
+.hero__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px;
+}
 
 .card {
   width: 176px;
@@ -133,7 +139,7 @@ p {
   vertical-align: bottom;
 }
 
-.card__status {
+.card__badge {
   display: flex;
   align-items: center;
   justify-content: center;
