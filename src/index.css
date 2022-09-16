@@ -69,6 +69,15 @@ p {
   display: flex;
 }
 
+.main-nav__logo {
+  display: flex;
+}
+
+.main-nav__logo-img {
+  width: 83px;
+  height: 26px;
+}
+
 .hero {
   background-color: #FFF;
   color: #000;
