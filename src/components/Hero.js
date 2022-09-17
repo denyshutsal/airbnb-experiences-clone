@@ -8,13 +8,7 @@ export default function Hero() {
     return (
       <Card
         key={card.id.toString()}
-        title={card.title}
-        price={card.price}
-        img={card.coverImg}
-        rating={card.stats.rating}
-        reviewCount={card.stats.reviewCount}
-        location={card.location}
-        openSpots={card.openSpots}
+        {...card}
       />
     )
   })
