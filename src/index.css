@@ -84,7 +84,6 @@ p {
 }
 
 .hero__container {
-  min-height: 780px;
   padding-top: 290px;
   background-image: -webkit-image-set(    
     url("/public/images/photo-grid-1x.png") 1x,    
@@ -110,9 +109,10 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
+  margin-bottom: 0;
 }
 
-.hero__cards {
+.cards__container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
