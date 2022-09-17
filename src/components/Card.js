@@ -14,7 +14,7 @@ export default function Card(props) {
   return (
     <section className="card">
       <a className="card__link" href="/" target="_blanc" rel="noopener noreferrer nofollow">
-        <img className="card__img" src={`/images/${props.coverImg}`} width="176" height="235" alt="card-img"/>
+        <img className="card__img" src={`./images/${props.coverImg}`} width="176" height="235" alt="card-img"/>
         {badgeText && <span className="card__badge">{badgeText}</span>}
         <div className="card__meta">
           <div className="card__stats">
